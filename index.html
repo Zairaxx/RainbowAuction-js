@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+	<!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Auktion by Brandon Duarte Tsegai</title>
+</head>
+<body>
+	<header>
+		<h1 class="rainbow-auction-header"> Rainbow Auction<sup><span class="randomizeColor">b</span><span class="randomizeColor">y</span><span class="randomizeColor">  B</span><span class="randomizeColor">r</span><span class="randomizeColor">a</span><span class="randomizeColor">n</span><span class="randomizeColor">d</span><span class="randomizeColor">o</span><span class="randomizeColor">n</span><span class="randomizeColor"> T</span><span class="randomizeColor">s</span><span class="randomizeColor">e</span><span class="randomizeColor">g</span><span class="randomizeColor">a</span><span class="randomizeColor">i</span></sup></h1>
+    </header>
+
+	<div class="search-box">
+		<div class="">
+			<button type="submit"></button>
+			<div id="sortera">
+				<legend>Sortera efter:</legend>
+				<input type="radio" name="sortering" id="filterAlla" value="alla" checked>
+				<label for="filterAlla">Alla</label>
+				<input type="radio" name="sortering" id="filterAktuella" value="pågående">
+				<label for="filterAktuella">Pågående</label>
+				<input type="radio" name="sortering" id="filterUtgången" value="utgången">
+				<label for="filterUtgången">Utgången</label>
+				<input type="radio" name="sortering" id="filterUtropspris" value="utropspris">
+				<label for="filterUtropspris">Utropspris</label>
+			</div>
+            <button type="submit" id="click" name="button">Sök</button>
+            <a href="auction.html">Skapa ny auktion</a>
+		</div>
+	</div>
+
+	<div id="content" class="content"></div>
+	<script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+	<script src="js/bud.js"></script>
+</body>
+
+</html>

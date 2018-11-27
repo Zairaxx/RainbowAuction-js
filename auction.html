@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Skapa en ny auktion</title>
+</head>
+<body>
+	<div class="form">
+		Titel:
+		<br>
+		<input type="text" id="auctionName">
+		<br>
+		Beskrivning:
+		<br>
+		<input type="text" id="newAuctionDescription"><br>
+		Utropspris:<br>
+		<input type="text" id="newAuctionPrice"><br>
+		Startdatum<br>
+		<input type ="date" id="startDate"><br>
+		Slutdatum<br>
+		<input type ="date" id="endDate"><br>
+		<button id="skapaAuktion">Skapa</button>
+		</div>
+
+<script src="js/api.js"></script>
+<script src="js/bud.js"></script>
+<script src="js/newAuction.js"></script>
+
+</body>
+</html>
